@@ -1,0 +1,49 @@
+#home-about{
+
+    .home-about-section{
+        padding: 20px;
+        &:first-child{
+            border-right: 1px solid;
+            img{
+                width: 100%;
+                object-fit: cover;
+            }
+            position: relative;
+            & > div{
+                width: 70%;
+                padding: 50px 0;
+                background-color: $primaryColor;
+                position: absolute;
+                top: 50%;
+                right: 0;
+                h4{
+                    color: #fff;
+                }
+                i{
+                    width: 50px;
+                    height: 50px;
+                    display: inline-block;
+                    background-color: #fff;
+                    border-radius: 25px;
+                    text-align: center;
+                    line-height: 50px;
+                    margin: 0 50px ;
+                }
+            }
+        }
+        &:last-child{
+            padding-left: 50px;
+
+            p{
+                line-height: 30px;
+                color: rgb(85, 85, 85);
+                font-size: 18px;
+                margin-bottom: 40px;
+            }
+            button{
+                margin-top: 20px;
+                width: 200px;
+            }
+        }
+    }
+}

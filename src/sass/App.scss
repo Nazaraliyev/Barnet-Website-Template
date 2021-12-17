@@ -1,0 +1,18 @@
+// Main
+@import 'main-parameter';
+@import 'header';
+@import 'footer';
+
+// Home
+@import 'Home/home-about';
+@import 'Home/home-quality';
+@import 'Home/home-business';
+@import 'Home/home-teams';
+@import 'Home/home-galery';
+
+
+//Shop
+@import "Shop/shop-banner";
+@import "Shop/shop-product-card";
+@import "Shop/shop-product-data";
+@import "Shop/shop-related-product";
